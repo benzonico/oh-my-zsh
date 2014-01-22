@@ -16,7 +16,6 @@ if [[ $('uname') == 'Linux' ]]; then
             break
         fi
     done
-
 elif  [[ $('uname') == 'Darwin' ]]; then
     local _sublime_darwin_paths > /dev/null 2>&1
     _sublime_darwin_paths=(
